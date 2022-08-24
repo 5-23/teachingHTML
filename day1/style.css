@@ -1,18 +1,44 @@
+ /*
+모든곳에 적용
+*{
+
+}
+
+특정 대그들에게만 적용
+tagName{
+
+}
+
+특정 클레스들에만 적용
+.className{
+
+}
+
+특정 아이디에만 적용
+#idName{
+
+}
+
+*/
+
+
+
+
 *{
     margin: 0;
-    --fav: rgb(88, 51, 255);
+    --fav: rgb(88, 51, 255); /* 이름이 fav이고 값이 rgb(88, 51, 255)인 변수 지정 */
 }
 
 header{
-    display: flex;
-    align-items: center;
-    background-color: var(--fav);
-    height: 80px;
+    display: flex; /* display를 flex로 설정해서 오른쪽으로만 정렬되게함 */
+    align-items: center; /*  */
+    background-color: var(--fav); /* 아까 지정한 fav변수 사용 */
+    height: 80px; /* 높이를 80px로 설정함 */
 }
 
 a{
-    font-size: 20px;
-    color: white;
-    margin-left:10px;
-    text-decoration: none;
+    font-size: 20px; /* 글자 크기를 20px로 설정함 */
+    color: white;  /* 색상을 흰색으로 설정함 */
+    margin-left:10px;  /* 오른쪽에 마진값을 10px만큼줌 */
+    text-decoration: none;  /* 및줄 없앰 */
 }

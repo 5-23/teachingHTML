@@ -1,22 +1,19 @@
- /*
+/*
+
 모든곳에 적용
 *{
-
 }
 
 특정 대그들에게만 적용
 tagName{
-
 }
 
 특정 클레스들에만 적용
 .className{
-
 }
 
 특정 아이디에만 적용
 #idName{
-
 }
 
 */
@@ -31,7 +28,7 @@ tagName{
 
 header{
     display: flex; /* display를 flex로 설정해서 오른쪽으로만 정렬되게함 */
-    align-items: center; /*  */
+    align-items: center; /* 아이템 중앙정렬(상하 기준 , display가 flex또는 grid일때만 작동) */
     background-color: var(--fav); /* 아까 지정한 fav변수 사용 */
     height: 80px; /* 높이를 80px로 설정함 */
 }
